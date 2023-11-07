@@ -54,6 +54,13 @@ android {
 
 dependencies {
 
+    // Testing
+    androidTestImplementation ("androidx.compose.ui:ui-test-junit4:1.5.4")
+    debugImplementation ("androidx.compose.ui:ui-test-manifest:1.5.4")
+    implementation ("androidx.navigation:navigation-compose:2.7.4")
+    androidTestImplementation ("androidx.navigation:navigation-testing:2.7.4")
+
+
     // Compose
     implementation ("androidx.navigation:navigation-compose:2.7.4")
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
