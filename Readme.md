@@ -41,11 +41,7 @@ The project's folder structure is divided into distinct sections to separate the
     - This is where business rules concerning tasks and related logic are defined.
     - Example: `domain/model`, `domain/repository`.
 
-3. **Contracts:**
-    - Contains interface contracts needed between layers like data, domain, and presentation.
-    - Example: `contracts/repository`, `contracts/usecase`.
-
-4. **Presentation:**
+3. **Presentation:**
     - Used for the user interface.
     - Activities, fragments, layouts, and UI-related classes are placed here.
     - Example: `presentation/screens`, `presentation/adapters`.
