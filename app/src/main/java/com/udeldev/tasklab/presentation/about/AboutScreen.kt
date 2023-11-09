@@ -142,11 +142,11 @@ fun AboutScreen(
                 fontSize = 16.sp,
             )
             Spacer(modifier = Modifier.height(25.dp))
-            Button(onClick = {
-                resultDialogState.show()
-            }) {
-                Text(text = "Get Todo")
-            }
+//            Button(onClick = {
+//                resultDialogState.show()
+//            }) {
+//                Text(text = "Get Todo")
+//            }
         }
     }
 }
